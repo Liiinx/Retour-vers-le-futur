@@ -1,4 +1,4 @@
-#Aide Doc et Marty
+# Aide Doc et Marty
 Doc travaille sur sa nouvelle machine à voyager dans le temps portative. Il n'a guère de temps pour s'occuper d'autre chose et fait donc appel à ton brillant esprit pour l'aider dans ses calculs, et éviter de rompre ainsi le continuum espace-temps !
 
 Astuce : lis bien tout l’énoncé avant de commencer à coder ! Toutes les dates à utiliser sont fournies dans le texte et sont à utiliser directement dans le code, tu n'as pas besoin de développer une interface web administrable.
@@ -19,7 +19,7 @@ Tu l'auras compris, ici la step sera d'un mois, une semaine et un jour, utilise 
 
 Convecteur temporel
 
-#Critéres de validation
+# Critéres de validation
 La classe s'appelle TimeTravel et prend bien 2 paramètres DateTime à l'instanciation.
 La méthode getTravelInfo() renvoie bien une phrase décrivant la différence de temps (de l'année à la seconde) entre les deux propriétés $start et $end.
 La méthode findDate() renvoie bien une date d'arrivée qui est $interval secondes avant la $date de départ. Pour une date de départ au 31/12/1985, le résultat renvoie une réponse autour de 1954.
